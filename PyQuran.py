@@ -5,10 +5,10 @@ from FridaysAndFastingTimes import FridaysAndFastingTimes
 import time
 
 
-API = "JOdcYM9lsJeZWyzvkBVaZ4UF9"
-API_secret = "xbEqp0TBM1IbMQ3ief5Z9iRNDqh11A1te0E4FoSMX9jdPybXfE"
-token = "1008618754446675968-gdLXz3JHa9Vq6bXgqdoGXhEQ8t9gTE"
-token_secret = "mxVfyLUilqHrZDS4cL6lKzylpGuidrphJyGH3bI2ANVGM"
+API = "Your API"
+API_secret = "Your API secret"
+token = "Your token"
+token_secret = "Your token secret"
 
 auth = tweepy.OAuthHandler(API, API_secret)
 auth.set_access_token(token, token_secret)
